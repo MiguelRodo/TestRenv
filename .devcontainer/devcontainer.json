@@ -6,7 +6,6 @@
  */
 {
 	"image": "mcr.microsoft.com/devcontainers/universal:latest",
-	// "postCreateCommand": "./scripts/all/post_create_command.sh",
 	"features": {
 		"ghcr.io/rocker-org/devcontainer-features/r-rig:1": {
 			"installDevTools": false,
