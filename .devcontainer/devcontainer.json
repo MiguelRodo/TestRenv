@@ -9,26 +9,15 @@
 	// "postCreateCommand": "./scripts/all/post_create_command.sh",
 	"features": {
 		"ghcr.io/rocker-org/devcontainer-features/r-rig:1": {
-			"installDevTools": true,
-			"installREnv": true,
-			"installRMarkdown": true,
-			"installRadian": true,
-			"installVscDebugger": true,
+			"installDevTools": false,
+			"installREnv": false,
+			"installRMarkdown": false,
+			"installRadian": false,
+			"installVscDebugger": false,
 			"version": "latest",
 			"pakVersion": "auto",
-			"vscodeRSupport": "full",
-			"pandocVersion": "latest"
-		}
-	},
-	"customizations": {
-		"vscode": {
-			"extensions": [
-				"GitHub.copilot",
-				"GitHub.copilot-chat",
-				"REditorSupport.r",
-				"sourcegraph.cody-ai",
-				"bierner.markdown-preview-github-styles"
-			]
+			"vscodeRSupport": "none",
+			"pandocVersion": "none"
 		}
 	}
 }
