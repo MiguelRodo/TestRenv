@@ -3,8 +3,28 @@
     "Version": "4.3.1",
     "Repositories": [
       {
+        "Name": "BioCsoft",
+        "URL": "https://bioconductor.org/packages/3.17/bioc"
+      },
+      {
+        "Name": "BioCann",
+        "URL": "https://bioconductor.org/packages/3.17/data/annotation"
+      },
+      {
+        "Name": "BioCexp",
+        "URL": "https://bioconductor.org/packages/3.17/data/experiment"
+      },
+      {
+        "Name": "BioCworkflows",
+        "URL": "https://bioconductor.org/packages/3.17/workflows"
+      },
+      {
+        "Name": "BioCbooks",
+        "URL": "https://bioconductor.org/packages/3.17/books"
+      },
+      {
         "Name": "RSPM",
-        "URL": "https://packagemanager.posit.co/cran/latest"
+        "URL": "https://packagemanager.rstudio.com/all/latest"
       },
       {
         "Name": "CRAN",
@@ -12,16 +32,18 @@
       }
     ]
   },
-  "Packages": {
-    "renv": {
-      "Package": "renv",
-      "Version": "1.0.0",
-      "Source": "Repository",
-      "Repository": "RSPM",
-      "Requirements": [
-        "utils"
-      ],
-      "Hash": "c321cd99d56443dbffd1c9e673c0c1a2"
-    }
-  }
+  "Bioconductor": {
+    "Version": "3.17"
+  },
+  "renv": {
+    "Package": "renv",
+    "Version": "1.0.0.9000",
+    "Source": "GitHub",
+    "RemoteType": "github",
+    "RemoteHost": "api.github.com",
+    "RemoteUsername": "rstudio",
+    "RemoteRepo": "renv",
+    "RemoteRef": "main",
+    "RemoteSha": "5fb52fefb8d919f2f3d88623b341c020330ed116"
+ }
 }
