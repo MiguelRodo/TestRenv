@@ -11,7 +11,7 @@
 			"installDevTools": false,
 			"installREnv": false,
 			"installRMarkdown": false,
-			"installRadian": false,
+			"installRadian": true,
 			"installVscDebugger": false,
 			"version": "latest",
 			"pakVersion": "auto",
