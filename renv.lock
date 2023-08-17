@@ -39,15 +39,10 @@
       "Source": "GitHub",
       "RemoteType": "github",
       "RemoteHost": "api.github.com",
+      "RemoteUsername": "MiguelRodo",
       "RemoteRepo": "renv",
-      "RemoteUsername": "rstudio",
-      "RemotePkgRef": "rstudio/renv",
-      "RemoteRef": "70318f1562f96029f51ebbb8e99e7fa93a22280c",
-      "RemoteSha": "70318f1562f96029f51ebbb8e99e7fa93a22280c",
-      "Requirements": [
-        "utils"
-      ],
-      "Hash": "49374510e5703cf7ee18423ee08e1094"
+      "RemoteRef": "c0ff66b2cb3d39a74f96f862addd7368025115f6",
+      "RemoteSha": "c0ff66b2cb3d39a74f96f862addd7368025115f6"
     },
     "tinytest": {
       "Package": "tinytest",

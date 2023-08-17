@@ -3,7 +3,7 @@ local({
 
   # the requested version of renv
   version <- "1.0.2.9000"
-  attr(version, "sha") <- "70318f1562f96029f51ebbb8e99e7fa93a22280c"
+  attr(version, "sha") <- "c0ff66b2cb3d39a74f96f862addd7368025115f6"
 
   # the project directory
   project <- getwd()
@@ -454,7 +454,7 @@ local({
       on.exit(do.call(base::options, saved), add = TRUE)
     }
   
-    url <- file.path("https://api.github.com/repos/rstudio/renv/tarball", version)
+    url <- file.path("https://api.github.com/repos/MiguelRodo/renv/tarball", version)
     name <- sprintf("renv_%s.tar.gz", version)
     destfile <- file.path(tempdir(), name)
   
@@ -493,8 +493,8 @@ local({
       "RemoteType: github",
       "RemoteHost: api.github.com",
       "RemoteRepo: renv",
-      "RemoteUsername: rstudio",
-      "RemotePkgRef: rstudio/renv",
+      "RemoteUsername: MiguelRodo",
+      "RemotePkgRef: MiguelRodo/renv",
       paste("RemoteRef: ", sha),
       paste("RemoteSha: ", sha)
     )
@@ -625,7 +625,7 @@ local({
   
       msg <- paste(
         "failed to infer current operating system",
-        "please file a bug report at https://github.com/rstudio/renv/issues",
+        "please file a bug report at https://github.com/MiguelRodo/renv/issues",
         sep = "; "
       )
   
@@ -783,7 +783,7 @@ local({
   
     # resolve description file
     #
-    # avoid passing lib.loc to `packageDescription()` below, since R will
+    # avoid passing lib.loc to `packageDescription()` below, since R will|
     # use the loaded version of the package by default anyhow. note that
     # this function should only be called after 'renv' is loaded
     # https://github.com/rstudio/renv/issues/1625
@@ -802,7 +802,7 @@ local({
     # the loaded version of renv doesn't match the requested version;
     # give the user instructions on how to proceed
     remote <- if (!is.null(description[["RemoteSha"]])) {
-      paste("rstudio/renv", description[["RemoteSha"]], sep = "@")
+      paste("MiguelRodo/renv", description[["RemoteSha"]], sep = "@")
     } else {
       paste("renv", description[["Version"]], sep = "@")
     }
