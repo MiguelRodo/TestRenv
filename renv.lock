@@ -39,14 +39,27 @@
       "Source": "GitHub",
       "RemoteType": "github",
       "RemoteHost": "api.github.com",
-      "RemoteUsername": "rstudio",
       "RemoteRepo": "renv",
-      "RemoteRef": "main",
+      "RemoteUsername": "rstudio",
+      "RemotePkgRef": "rstudio/renv",
+      "RemoteRef": "70318f1562f96029f51ebbb8e99e7fa93a22280c",
       "RemoteSha": "70318f1562f96029f51ebbb8e99e7fa93a22280c",
       "Requirements": [
         "utils"
       ],
-      "Hash": "5544a44da98dafeb167a287c5bbfcfe2"
+      "Hash": "49374510e5703cf7ee18423ee08e1094"
+    },
+    "tinytest": {
+      "Package": "tinytest",
+      "Version": "1.4.1",
+      "Source": "Repository",
+      "Repository": "RSPM",
+      "Requirements": [
+        "R",
+        "parallel",
+        "utils"
+      ],
+      "Hash": "1f344373b4f0fe61b6a0d4e3d3c842ca"
     }
   }
 }
