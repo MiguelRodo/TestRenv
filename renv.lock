@@ -32,9 +32,6 @@
       }
     ]
   },
-  "Bioconductor": {
-    "Version": "3.17"
-  },
   "Packages": {
     "renv": {
       "Package": "renv",
