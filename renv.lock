@@ -35,15 +35,21 @@
   "Bioconductor": {
     "Version": "3.17"
   },
-  "renv": {
-    "Package": "renv",
-    "Version": "1.0.0.9000",
-    "Source": "GitHub",
-    "RemoteType": "github",
-    "RemoteHost": "api.github.com",
-    "RemoteUsername": "rstudio",
-    "RemoteRepo": "renv",
-    "RemoteRef": "main",
-    "RemoteSha": "5fb52fefb8d919f2f3d88623b341c020330ed116"
- }
+  "Packages": {
+    "renv": {
+      "Package": "renv",
+      "Version": "1.0.2.9000",
+      "Source": "GitHub",
+      "RemoteType": "github",
+      "RemoteHost": "api.github.com",
+      "RemoteUsername": "rstudio",
+      "RemoteRepo": "renv",
+      "RemoteRef": "main",
+      "RemoteSha": "70318f1562f96029f51ebbb8e99e7fa93a22280c",
+      "Requirements": [
+        "utils"
+      ],
+      "Hash": "5544a44da98dafeb167a287c5bbfcfe2"
+    }
+  }
 }
